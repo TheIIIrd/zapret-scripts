@@ -45,3 +45,15 @@ betterttv.net
 7tv.app
 7tv.io
 localizeapi.com
+roblox.com
+css.rbxcdn.com
+js.rbxcdn.com
+ecsv2.roblox.com
+metrics.roblox.com
+apis.roblox.com
+realtime-signalr.roblox.com
+games.roblox.com
+tr.rbxcdn.com
+thumbnails.roblox.com
+modrinth.com
+www.furaffinity.net
