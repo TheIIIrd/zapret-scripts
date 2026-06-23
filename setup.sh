@@ -293,7 +293,7 @@ setup_shell_shortcuts() {
     case "${response,,}" in
       y|yes|д|да|"") break ;;
       n|no|н|нет) return 0 ;;
-      *) echo "⚠ Неверный ввод. Ответьте Y/N (или Д/Н)"; echo ;;
+      *) echo "Неверный ввод. Ответьте Y/N (или Д/Н)"; echo ;;
     esac
   done
   
@@ -314,7 +314,7 @@ setup_shell_shortcuts() {
   shell_config="${shell_configs[$current_shell]}"
   
   if [ -z "$shell_config" ]; then
-    echo "⚠ Неизвестный shell: $current_shell"
+    echo "Неизвестный shell: $current_shell"
     echo "Добавьте alias вручную в ваш конфиг-файл shell"
     return 0
   fi
